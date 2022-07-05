@@ -163,8 +163,11 @@ a {
 .card-post {
   width: 100%;
   max-width: 316px;
+  border: 4px solid transparent;
   -webkit-box-shadow: 0px 2px 2px rgba(73, 80, 87, 0.25);
           box-shadow: 0px 2px 2px rgba(73, 80, 87, 0.25);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 .card-post .card-image {
@@ -195,6 +198,8 @@ a {
 
 .card-post .card-info h6 {
   color: var(--gray-900);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 .card-post .see {
@@ -213,6 +218,8 @@ a {
   font-size: 1.6rem;
   padding: 10px;
   position: relative;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 .card-post .see a::before {
@@ -225,6 +232,25 @@ a {
   position: absolute;
   right: 102px;
   top: 0;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.card-post:hover {
+  border: 4px solid var(--prymary-400);
+}
+
+.card-post:hover .card-info h6 {
+  color: var(--prymary-800);
+}
+
+.card-post:hover .see a {
+  color: var(--prymary-800);
+  background-color: var(--prymary-400);
+}
+
+.card-post:hover .see a::before {
+  border-bottom: 39px solid var(--prymary-400);
 }
 
 header {

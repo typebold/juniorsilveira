@@ -57,7 +57,9 @@
 .card-post {
   width: 100%;
   max-width: 316px;
+  border: 4px solid transparent;
   box-shadow: 0px 2px 2px rgba(73, 80, 87, 0.25);
+  transition: all .3s ease;
 
   .card-image {
     max-width: 316px;
@@ -86,6 +88,7 @@
 
     h6 {
       color: var(--gray-900);
+      transition: all .3s ease;
     }
   }
 
@@ -100,6 +103,7 @@
       font-size: 1.6rem;
       padding: 10px;
       position: relative;
+      transition: all .3s ease;
 
       &::before {
         content: "";
@@ -111,6 +115,28 @@
         position: absolute;
         right: 102px;
         top: 0;
+        transition: all .3s ease;
+      }
+    }
+  }
+
+  &:hover {
+    border: 4px solid var(--prymary-400);
+
+    .card-info {
+      h6 {
+        color: var(--prymary-800);
+      }
+    }
+
+    .see {
+      a {
+        color: var(--prymary-800);
+        background-color: var(--prymary-400);
+
+        &::before {
+          border-bottom: 39px solid var(--prymary-400);
+        }
       }
     }
   }
