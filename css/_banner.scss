@@ -1,0 +1,21 @@
+.s-banner {
+  background-image: url(../img/bg-banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 664px;
+  margin-bottom: 128px;
+
+  .container {
+    display: flex;
+    align-items: center;
+    column-gap: 121px;
+  }
+
+  .left-banner {
+    width: 100%;
+    max-width: 558px;
+    max-height: 600px;
+  }
+}

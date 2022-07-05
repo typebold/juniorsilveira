@@ -1,0 +1,47 @@
+header {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(40px);
+  border-bottom: 1px solid #CED4DA;
+  position: sticky;
+  top: 0;
+  z-index: 2022;
+
+  .main-menu {
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      width: 100%;
+      max-width: 302px;
+      height: 56px;
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+
+      li {
+        a {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 17px;
+          text-transform: uppercase;
+          color: #212529;
+          padding-left: 12px;
+          border-right: 1px solid #CED4DA;
+          padding-right: 12px;
+        }
+      }
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px;
+      height: 48px;
+    }
+  }
+}
