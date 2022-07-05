@@ -1,5 +1,5 @@
 header {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, .7);
   backdrop-filter: blur(40px);
   border-bottom: 1px solid #CED4DA;
   position: sticky;
@@ -23,15 +23,29 @@ header {
       align-items: center;
 
       li {
+        padding-left: 12px;
+        border-right: 1px solid #CED4DA;
+        padding-right: 12px;
+
         a {
           font-weight: 600;
           font-size: 14px;
           line-height: 17px;
           text-transform: uppercase;
           color: #212529;
-          padding-left: 12px;
-          border-right: 1px solid #CED4DA;
-          padding-right: 12px;
+
+
+          &.active {
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--prymary-800);
+            color: var(--prymary-800);
+          }
+
+          &:hover {
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--prymary-800);
+            color: var(--prymary-800);
+          }
         }
       }
     }
