@@ -5,10 +5,6 @@
           box-sizing: border-box;
 }
 
-body {
-  padding-bottom: 100px;
-}
-
 body,
 html {
   font-size: 16px;
@@ -346,14 +342,45 @@ header .main-menu .search {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10rem;
+  padding-left: 4rem;
+  margin-bottom: 144px;
 }
 
 .s-curso-prymary .content {
   width: 100%;
   max-width: 505px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.s-curso-prymary .content h3 {
+  text-transform: uppercase;
+  color: var(--white);
+  line-height: 1.2;
+}
+
+.s-curso-prymary .content p {
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.s-curso-prymary .content a {
+  text-transform: uppercase;
+  border: 1px solid var(--white);
+  color: var(--white);
+  padding: 15px 30px;
+  display: inline-block;
+  margin-top: 3rem;
+}
+
+.s-curso-prymary .content a:hover {
+  border: 1px solid var(--prymary-200);
+  background-color: var(--prymary-200);
+  color: var(--prymary-800);
 }
 
 .s-banner {
@@ -413,5 +440,61 @@ header .main-menu .search {
 
 .s-postlist {
   margin-bottom: 120px;
+}
+
+.s-footer {
+  background-color: var(--prymary-banding);
+  padding: 60px 0;
+}
+
+.s-footer .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.s-footer .content a.footer-button {
+  font-size: 14px;
+  color: var(--white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid var(--white);
+  gap: 10px;
+}
+
+.s-footer .content h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--prymary-700);
+  margin-bottom: 2rem;
+}
+
+.s-footer .content ul li {
+  color: var(--white);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "halcom";
+  padding-bottom: 1.5rem;
+}
+
+.s-footer .copy {
+  border-top: 1px solid var(--prymary-900);
+  padding-top: 2rem;
+  margin-top: 4rem;
+  color: var(--white);
+}
+
+.s-footer .copy p {
+  font-size: 12px;
+  padding-bottom: 1rem;
 }
 /*# sourceMappingURL=main.css.map */

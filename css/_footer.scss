@@ -1,0 +1,49 @@
+.s-footer {
+  background-color: var(--prymary-banding);
+  padding: 60px 0;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+
+    a.footer-button {
+      font-size: 14px;
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      padding: 10px;
+      border: 1px solid var(--white);
+      gap: 10px;
+    }
+
+    h5 {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: var(--prymary-700);
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      li {
+        color: var(--white);
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: "halcom";
+        padding-bottom: 1.5rem;
+      }
+    }
+  }
+
+  .copy {
+    border-top: 1px solid var(--prymary-900);
+    padding-top: 2rem;
+    margin-top: 4rem;
+    color: var(--white);
+
+    p {
+      font-size: 12px;
+      padding-bottom: 1rem;
+    }
+  }
+}

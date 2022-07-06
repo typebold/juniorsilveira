@@ -7,10 +7,40 @@
   height: 544px;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
+  padding-top: 10rem;
+  padding-left: 4rem;
+  margin-bottom: 144px;
 
   .content {
     width: 100%;
     max-width: 505px;
+    box-sizing: border-box;
+
+    h3 {
+      text-transform: uppercase;
+      color: var(--white);
+      line-height: 1.2;
+    }
+
+    p {
+      color: var(--white);
+      margin-bottom: 2rem;
+    }
+
+    a {
+      text-transform: uppercase;
+      border: 1px solid var(--white);
+      color: var(--white);
+      padding: 15px 30px;
+      display: inline-block;
+      margin-top: 3rem;
+
+      &:hover {
+        border: 1px solid var(--prymary-200);
+        background-color: var(--prymary-200);
+        color: var(--prymary-800);
+      }
+    }
   }
 }
