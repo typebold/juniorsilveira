@@ -1,0 +1,76 @@
+.curso-2 {
+  background-image: url(../img/Masterclass.png);
+}
+
+.curso-3 {
+  background-image: url(../img/fluencia.png);
+}
+
+.curso-4 {
+  background-image: url(../img/primeiro-passo.png);
+}
+
+.curso {
+  margin-bottom: 40px;
+  margin-top: 7.2rem;
+}
+
+.curso-2,
+.curso-3,
+.curso-4 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  margin-bottom: 54px;
+
+  .content {
+    width: 100%;
+    box-sizing: border-box;
+
+    h4 {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 54px;
+      line-height: 66px;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+
+    h5 {
+      font-family: "proxima-nova";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+
+    p {
+      color: var(--white);
+      margin-bottom: 2rem;
+    }
+
+    a {
+      text-transform: uppercase;
+      border: 1px solid var(--white);
+      color: var(--white);
+      padding: 15px 30px;
+      display: inline-block;
+      margin-top: 2.4rem;
+
+      &:hover {
+        border: 1px solid var(--prymary-200);
+        background-color: var(--prymary-200);
+        color: var(--prymary-800);
+      }
+    }
+  }
+}

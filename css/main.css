@@ -497,4 +497,101 @@ header .main-menu .search {
   font-size: 12px;
   padding-bottom: 1rem;
 }
+
+.curso-2 {
+  background-image: url(../img/Masterclass.png);
+}
+
+.curso-3 {
+  background-image: url(../img/fluencia.png);
+}
+
+.curso-4 {
+  background-image: url(../img/primeiro-passo.png);
+}
+
+.curso {
+  margin-bottom: 40px;
+  margin-top: 7.2rem;
+}
+
+.curso-2,
+.curso-3,
+.curso-4 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+  margin-bottom: 54px;
+}
+
+.curso-2 .content,
+.curso-3 .content,
+.curso-4 .content {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.curso-2 .content h4,
+.curso-3 .content h4,
+.curso-4 .content h4 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.curso-2 .content h5,
+.curso-3 .content h5,
+.curso-4 .content h5 {
+  font-family: "proxima-nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.curso-2 .content p,
+.curso-3 .content p,
+.curso-4 .content p {
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.curso-2 .content a,
+.curso-3 .content a,
+.curso-4 .content a {
+  text-transform: uppercase;
+  border: 1px solid var(--white);
+  color: var(--white);
+  padding: 15px 30px;
+  display: inline-block;
+  margin-top: 2.4rem;
+}
+
+.curso-2 .content a:hover,
+.curso-3 .content a:hover,
+.curso-4 .content a:hover {
+  border: 1px solid var(--prymary-200);
+  background-color: var(--prymary-200);
+  color: var(--prymary-800);
+}
 /*# sourceMappingURL=main.css.map */
