@@ -1,21 +1,21 @@
 header {
   background: rgba(255, 255, 255, .7);
-  backdrop-filter: blur(40px);
+  backdrop-filter: blur(4rem);
   border-bottom: 1px solid #CED4DA;
   position: sticky;
   top: 0;
   z-index: 2022;
 
   .main-menu {
-    height: 88px;
+    height: 8.8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     .logo {
       width: 100%;
-      max-width: 302px;
-      height: 56px;
+      max-width: 30.2rem;
+      height: 5.6rem;
     }
 
     .menu {
@@ -23,27 +23,27 @@ header {
       align-items: center;
 
       li {
-        padding-left: 12px;
+        padding-left: 1.2rem;
         border-right: 1px solid #CED4DA;
-        padding-right: 12px;
+        padding-right: 1.2rem;
 
         a {
           font-weight: 600;
-          font-size: 14px;
-          line-height: 17px;
+          font-size: 1.4rem;
+          line-height: 1.7rem;
           text-transform: uppercase;
           color: #212529;
 
 
           &.active {
-            padding-bottom: 8px;
-            border-bottom: 2px solid var(--prymary-800);
+            padding-bottom: 0.8rem;
+            border-bottom: 0.2rem solid var(--prymary-800);
             color: var(--prymary-800);
           }
 
           &:hover {
-            padding-bottom: 8px;
-            border-bottom: 2px solid var(--prymary-800);
+            padding-bottom: 0.8rem;
+            border-bottom: 0.2rem solid var(--prymary-800);
             color: var(--prymary-800);
           }
         }
@@ -54,8 +54,8 @@ header {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 72px;
-      height: 48px;
+      width: 7.2rem;
+      height: 4.8rem;
     }
   }
 }

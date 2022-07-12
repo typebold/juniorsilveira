@@ -1,24 +1,24 @@
 .s-footer {
   background-color: var(--prymary-banding);
-  padding: 60px 0;
+  padding: 6rem 0;
 
   .content {
     display: flex;
     justify-content: space-between;
 
     a.footer-button {
-      font-size: 14px;
+      font-size: 1.4rem;
       color: var(--white);
       display: flex;
       align-items: center;
-      font-size: 16px;
-      padding: 10px;
+      font-size: 1.6rem;
+      padding: 1rem;
       border: 1px solid var(--white);
-      gap: 10px;
+      gap: 1rem;
     }
 
     h5 {
-      font-size: 14px;
+      font-size: 1.4rem;
       text-transform: uppercase;
       color: var(--prymary-700);
       margin-bottom: 2rem;
@@ -27,7 +27,7 @@
     ul {
       li {
         color: var(--white);
-        font-size: 14px;
+        font-size: 1.4rem;
         text-transform: uppercase;
         font-family: "halcom";
         padding-bottom: 1.5rem;
@@ -42,7 +42,7 @@
     color: var(--white);
 
     p {
-      font-size: 12px;
+      font-size: 1.2rem;
       padding-bottom: 1rem;
     }
   }
