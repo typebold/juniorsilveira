@@ -1,0 +1,123 @@
+.blog-wrapper{
+  display: grid;
+  grid-template-columns: 75.2rem 36.4rem;
+  gap: 2.4rem;
+  margin-top: 8.8rem;
+
+  .blog-left{
+    .share{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2.4rem;
+
+      .left{
+        h5{
+          font-size: 18px;
+        }
+      }
+      .right{
+        display: flex;
+        gap: 2.4rem;
+
+        ul{
+          display: flex;
+          gap: 2.4rem;
+          li{
+            width: 48px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--prymary-800);
+          }
+        }
+      }
+    }
+
+    .blog-postinfo{
+      .blog-cat{
+        margin-top: 4rem;
+        margin-bottom: 2.4rem;
+        h6{
+          font-size: 18px;
+          text-transform: uppercase;
+          color: var(--prymary-800);
+          font-family: "termina",sans-serif!important;
+        }
+      }
+      h2{
+        font-size: 6.3rem;
+        line-height: 1;
+        margin-bottom: 1.6rem;
+      }
+    }
+
+    .blog-content{
+      margin-bottom: 8rem ;
+      p{
+        font-size: 18px;
+        color: var(--gray-900);
+        line-height: 1.6;
+      }
+    }
+  }
+  .blog-right{
+    h6{
+      font-size: 1.8rem;
+      margin-bottom: 1.6rem;
+    }
+
+    .read-more{
+      .read-item{
+        display: flex;
+        gap: 0.8rem;
+        margin-bottom: 4rem;
+
+        .read-thumb{
+          width: 100%;
+          max-width: 12.8rem;
+          height: 7.2rem;
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        a{
+          font-size: 1rem;
+          font-family: "termina",sans-serif!important;
+          text-transform: uppercase;
+          color: var(--prymary-800);
+        }
+        h6{
+          font-size: 1.8rem;
+          font-weight: bold;
+
+        }
+      }
+    }
+  }
+
+  .follow{
+    margin-top: 3.2rem;
+    h5{
+      font-size: 1.8rem;
+    }
+
+    ul{
+      margin-top: 1.6rem;
+      display: flex;
+      justify-content: space-between;
+      gap: 2.4rem;
+      li{
+        background-color: var(--prymary-800);
+        flex: 1;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
