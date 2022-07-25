@@ -347,6 +347,52 @@ header .main-menu .search {
   height: 4.8rem;
 }
 
+@media (max-width: 1090px) {
+  header .main-menu {
+    height: 8.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .main-menu .logo {
+    width: 100%;
+    max-width: 30.2rem;
+    height: 5.6rem;
+  }
+  header .main-menu .menu {
+    display: none;
+    align-items: center;
+  }
+  header .main-menu .menu li {
+    padding-left: 1.2rem;
+    border-right: 1px solid #CED4DA;
+    padding-right: 1.2rem;
+  }
+  header .main-menu .menu li a {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-transform: uppercase;
+    color: #212529;
+  }
+  header .main-menu .menu li a.active {
+    padding-bottom: 0.8rem;
+    border-bottom: 0.2rem solid var(--prymary-800);
+    color: var(--prymary-800);
+  }
+  header .main-menu .menu li a:hover {
+    padding-bottom: 0.8rem;
+    border-bottom: 0.2rem solid var(--prymary-800);
+    color: var(--prymary-800);
+  }
+  header .main-menu .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7.2rem;
+    height: 4.8rem;
+  }
+}
 .s-curso-prymary {
   background-image: url(../img/FotoCurso.png);
   background-repeat: no-repeat;
@@ -410,6 +456,32 @@ header .main-menu .search {
   max-height: 60rem;
 }
 
+@media (max-width: 1000px) {
+  .s-banner .left-banner {
+    width: 100%;
+    max-width: 45.8rem;
+    max-height: 60rem;
+  }
+}
+@media (max-width: 870px) {
+  .s-banner {
+    height: auto;
+    padding-bottom: 5rem;
+  }
+  .s-banner .container {
+    display: grid;
+    justify-content: center;
+  }
+  .s-banner .left-banner {
+    width: 100%;
+    max-width: 100%;
+    max-height: auto;
+    margin-bottom: 4rem;
+  }
+  .s-banner .left-banner img {
+    width: 100%;
+  }
+}
 .swiper {
   width: 100%;
   height: 100%;
@@ -418,7 +490,6 @@ header .main-menu .search {
 .swiper-slide {
   font-size: 1.8rem;
   background: #fff;
-  /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -442,6 +513,11 @@ header .main-menu .search {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  .swiper-slide {
+    display: grid;
+  }
+}
 .s-footer {
   background-color: var(--prymary-banding);
   padding: 6rem 0;
